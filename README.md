@@ -38,7 +38,7 @@ Let's look at the components that make up this route code:
 
 Now start the Rails server back up, go back to `localhost:3000/about`, and click refresh. You should now see that the error message has changed. It's no longer complaining about not having a route; it should now say: `uninitialized constant StaticController`.
 
-Let's fix this by creating a new controller for our static pages, adding a new file to the application: `app/controllers/static_controller.rb`.
+Let's fix this by creating a new controller for our static pages, adding a new file to the application: `app/controllers/.rb`.
 
 This will create a blank controller file that we can use to map to the routing file. Since there are a number of methods built into the Rails controller system, you will also want the controller to inherit from the application controller. The new file should have code that looks like this:
 
